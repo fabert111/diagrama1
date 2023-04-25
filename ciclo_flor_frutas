@@ -1,0 +1,15 @@
+# Lista de nombres de frutas
+frutas = ["manzana", "naranja", "plátano", "uva", "sandía"]
+
+# Ciclo for para imprimir los nombres de la lista
+print("Nombres de frutas:")
+for fruta in frutas:
+    print(fruta)
+
+# Ciclo for anidado para imprimir las letras de cada nombre de la lista
+print("\nLetras de cada fruta:")
+for fruta in frutas:
+    print("Letras de", fruta + ":")
+    for letra in fruta:
+        print(letra)
+    print("------------")
